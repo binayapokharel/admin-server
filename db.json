@@ -1,0 +1,218 @@
+{
+  "site": {
+    "name": "LAHAR",
+    "tagline": "Authentic Nepali Drops. Shipped Worldwide.",
+    "adminEmail": "admin@lahar.com",
+    "adminName": "Super Admin",
+    "adminInitials": "SA",
+    "alertCount": 3
+  },
+  "navigation": [
+    {
+      "section": "Overview",
+      "items": [
+        { "id": "dashboard", "label": "Dashboard", "icon": "LayoutGrid" }
+      ]
+    },
+    {
+      "section": "Catalogue",
+      "items": [
+        { "id": "categories", "label": "Categories", "icon": "Grid2x2" },
+        { "id": "brands", "label": "Brands", "icon": "BadgeCheck" },
+        { "id": "tags", "label": "Tags", "icon": "Tag" },
+        { "id": "units", "label": "Units", "icon": "Ruler" },
+        { "id": "products", "label": "Products", "icon": "Package" },
+        { "id": "inventory", "label": "Inventory", "icon": "Briefcase" }
+      ]
+    },
+    {
+      "section": "Commerce",
+      "items": [
+        { "id": "vendors", "label": "Vendors", "icon": "Store" },
+        { "id": "customers", "label": "Customers", "icon": "Users" },
+        { "id": "orders", "label": "Orders", "icon": "ShoppingCart" },
+        { "id": "payments", "label": "Payments", "icon": "CreditCard" },
+        { "id": "coupons", "label": "Coupons", "icon": "Ticket" },
+        { "id": "reviews", "label": "Reviews & Q&A", "icon": "Star" }
+      ]
+    },
+    {
+      "section": "Content",
+      "items": [
+        { "id": "cms", "label": "CMS / Banners", "icon": "LayoutDashboard" },
+        { "id": "blog", "label": "Blog / Articles", "icon": "FileText" }
+      ]
+    },
+    {
+      "section": "System",
+      "items": [
+        { "id": "notifications", "label": "SMS / Email", "icon": "Bell" },
+        { "id": "reports", "label": "Reports", "icon": "BarChart3" },
+        { "id": "seo", "label": "SEO Settings", "icon": "Search" },
+        { "id": "settings", "label": "Settings", "icon": "Settings" }
+      ]
+    }
+  ],
+  "stats": [
+    { "id": "revenue", "label": "Total Revenue", "value": "NPR 24,18,500", "change": "+12.4%", "trend": "up", "sub": "vs last month" },
+    { "id": "orders", "label": "Total Orders", "value": "1,847", "change": "+8.1%", "trend": "up", "sub": "vs last month" },
+    { "id": "customers", "label": "Active Customers", "value": "6,204", "change": "+3.2%", "trend": "up", "sub": "vs last month" },
+    { "id": "pending", "label": "Pending Orders", "value": "38", "change": "-5.0%", "trend": "down", "sub": "needs attention" }
+  ],
+  "recentOrders": [
+    { "id": "#ORD-4821", "customer": "Aarav Sharma", "amount": "NPR 12,400", "status": "Delivered", "date": "2 hrs ago" },
+    { "id": "#ORD-4820", "customer": "Priya Thapa", "amount": "NPR 3,200", "status": "Processing", "date": "4 hrs ago" },
+    { "id": "#ORD-4819", "customer": "Bibek Karki", "amount": "NPR 8,750", "status": "Shipped", "date": "6 hrs ago" },
+    { "id": "#ORD-4818", "customer": "Sunita Gurung", "amount": "NPR 1,500", "status": "Pending", "date": "8 hrs ago" },
+    { "id": "#ORD-4817", "customer": "Roshan Poudel", "amount": "NPR 21,000", "status": "Delivered", "date": "1 day ago" }
+  ],
+  "topProducts": [
+    { "name": "Samsung Galaxy A55", "category": "Smartphones", "sold": 142, "revenue": "NPR 4,26,000" },
+    { "name": "Wai Wai Noodles (Box)", "category": "Food & Grocery", "sold": 318, "revenue": "NPR 1,27,200" },
+    { "name": "Himalaya Face Wash", "category": "Beauty", "sold": 205, "revenue": "NPR 82,000" },
+    { "name": "Bajaj Pulsar NS160", "category": "Vehicles", "sold": 12, "revenue": "NPR 3,12,000" }
+  ],
+  "categories": [
+    { "id": 1, "name": "Electronics", "parent": null, "slug": "electronics", "products": 143, "sort": 1, "status": "Active" },
+    { "id": 2, "name": "Smartphones", "parent": "Electronics", "slug": "smartphones", "products": 67, "sort": 1, "status": "Active" },
+    { "id": 3, "name": "Laptops", "parent": "Electronics", "slug": "laptops", "products": 31, "sort": 2, "status": "Active" },
+    { "id": 4, "name": "Fashion", "parent": null, "slug": "fashion", "products": 98, "sort": 2, "status": "Active" },
+    { "id": 5, "name": "Men's Wear", "parent": "Fashion", "slug": "mens-wear", "products": 54, "sort": 1, "status": "Active" },
+    { "id": 6, "name": "Women's Wear", "parent": "Fashion", "slug": "womens-wear", "products": 44, "sort": 2, "status": "Active" },
+    { "id": 7, "name": "Food & Grocery", "parent": null, "slug": "food-grocery", "products": 210, "sort": 3, "status": "Active" },
+    { "id": 8, "name": "Beauty", "parent": null, "slug": "beauty", "products": 76, "sort": 4, "status": "Active" }
+  ],
+  "brands": [
+    { "id": 1, "name": "Samsung", "initial": "S", "color": "brand", "products": 47, "status": "Active" },
+    { "id": 2, "name": "Apple", "initial": "A", "color": "amber", "products": 23, "status": "Active" },
+    { "id": 3, "name": "Himalaya", "initial": "H", "color": "green", "products": 38, "status": "Active" },
+    { "id": 4, "name": "Bajaj", "initial": "B", "color": "rose", "products": 15, "status": "Active" },
+    { "id": 5, "name": "Wai Wai", "initial": "W", "color": "orange", "products": 12, "status": "Active" },
+    { "id": 6, "name": "Surya Nepal", "initial": "SN", "color": "violet", "products": 9, "status": "Active" }
+  ],
+  "tags": [
+    { "id": 1, "name": "New Arrival", "slug": "new-arrival", "color": "#E84C1E", "colorClass": "brand", "products": 34 },
+    { "id": 2, "name": "Featured", "slug": "featured", "color": "#14b8a6", "colorClass": "teal", "products": 28 },
+    { "id": 3, "name": "Sale", "slug": "sale", "color": "#f59e0b", "colorClass": "amber", "products": 56 },
+    { "id": 4, "name": "Hot Deal", "slug": "hot-deal", "color": "#f43f5e", "colorClass": "rose", "products": 19 },
+    { "id": 5, "name": "Limited Edition", "slug": "limited-edition", "color": "#8b5cf6", "colorClass": "violet", "products": 7 }
+  ],
+  "units": [
+    { "id": 1, "name": "Piece", "abbreviation": "pc", "type": "Count", "products": 342 },
+    { "id": 2, "name": "Kilogram", "abbreviation": "kg", "type": "Weight", "products": 87 },
+    { "id": 3, "name": "Gram", "abbreviation": "g", "type": "Weight", "products": 65 },
+    { "id": 4, "name": "Litre", "abbreviation": "L", "type": "Volume", "products": 43 },
+    { "id": 5, "name": "Millilitre", "abbreviation": "ml", "type": "Volume", "products": 38 },
+    { "id": 6, "name": "Dozen", "abbreviation": "dz", "type": "Count", "products": 12 },
+    { "id": 7, "name": "Metre", "abbreviation": "m", "type": "Length", "products": 29 }
+  ],
+  "products": [
+    { "id": "PRD-001", "name": "Samsung Galaxy A55 5G", "category": "Smartphones", "brand": "Samsung", "price": "NPR 45,000", "stock": 23, "status": "Active", "sku": "SAM-GA55-5G" },
+    { "id": "PRD-002", "name": "Apple iPhone 15", "category": "Smartphones", "brand": "Apple", "price": "NPR 1,40,000", "stock": 8, "status": "Active", "sku": "APL-IP15-128" },
+    { "id": "PRD-003", "name": "Wai Wai Chicken Noodles", "category": "Food & Grocery", "brand": "Wai Wai", "price": "NPR 400", "stock": 500, "status": "Active", "sku": "WW-CHK-24PK" },
+    { "id": "PRD-004", "name": "Himalaya Purifying Neem", "category": "Beauty", "brand": "Himalaya", "price": "NPR 185", "stock": 0, "status": "Out of Stock", "sku": "HIM-NEEM-100" },
+    { "id": "PRD-005", "name": "Bajaj Pulsar NS160", "category": "Vehicles", "brand": "Bajaj", "price": "NPR 2,60,000", "stock": 3, "status": "Active", "sku": "BAJ-PUL-NS160" }
+  ],
+  "vendors": [
+    { "id": "VND-001", "name": "TechMart Nepal", "email": "techmart@example.com", "products": 87, "revenue": "NPR 8,42,000", "status": "Verified", "joined": "Jan 2024" },
+    { "id": "VND-002", "name": "Kathmandu Bazaar", "email": "ktmbazaar@example.com", "products": 134, "revenue": "NPR 12,10,500", "status": "Verified", "joined": "Mar 2023" },
+    { "id": "VND-003", "name": "Pokhara Crafts", "email": "pokharacrafts@example.com", "products": 42, "revenue": "NPR 3,87,200", "status": "Pending", "joined": "Nov 2024" },
+    { "id": "VND-004", "name": "Himalayan Herbs Co", "email": "himalherbs@example.com", "products": 58, "revenue": "NPR 6,14,800", "status": "Verified", "joined": "Jun 2023" }
+  ],
+  "customers": [
+    { "id": "CUS-001", "name": "Aarav Sharma", "email": "aarav@example.com", "orders": 14, "spent": "NPR 42,300", "status": "Active", "joined": "Feb 2024" },
+    { "id": "CUS-002", "name": "Priya Thapa", "email": "priya@example.com", "orders": 7, "spent": "NPR 18,900", "status": "Active", "joined": "May 2024" },
+    { "id": "CUS-003", "name": "Bibek Karki", "email": "bibek@example.com", "orders": 3, "spent": "NPR 8,750", "status": "Active", "joined": "Sep 2024" },
+    { "id": "CUS-004", "name": "Sunita Gurung", "email": "sunita@example.com", "orders": 21, "spent": "NPR 67,500", "status": "Active", "joined": "Dec 2023" },
+    { "id": "CUS-005", "name": "Roshan Poudel", "email": "roshan@example.com", "orders": 1, "spent": "NPR 21,000", "status": "Inactive", "joined": "Jan 2025" }
+  ],
+  "orders": [
+    { "id": "#ORD-4821", "customer": "Aarav Sharma", "vendor": "TechMart Nepal", "items": 2, "amount": "NPR 12,400", "payment": "eSewa", "status": "Delivered", "date": "24 Mar 2025" },
+    { "id": "#ORD-4820", "customer": "Priya Thapa", "vendor": "Kathmandu Bazaar", "items": 1, "amount": "NPR 3,200", "payment": "Khalti", "status": "Processing", "date": "24 Mar 2025" },
+    { "id": "#ORD-4819", "customer": "Bibek Karki", "vendor": "TechMart Nepal", "items": 3, "amount": "NPR 8,750", "payment": "COD", "status": "Shipped", "date": "23 Mar 2025" },
+    { "id": "#ORD-4818", "customer": "Sunita Gurung", "vendor": "Himalayan Herbs Co", "items": 5, "amount": "NPR 1,500", "payment": "Bank", "status": "Pending", "date": "23 Mar 2025" },
+    { "id": "#ORD-4817", "customer": "Roshan Poudel", "vendor": "Pokhara Crafts", "items": 1, "amount": "NPR 21,000", "payment": "eSewa", "status": "Delivered", "date": "22 Mar 2025" }
+  ],
+  "payments": [
+    { "id": "PAY-8921", "order": "#ORD-4821", "customer": "Aarav Sharma", "amount": "NPR 12,400", "method": "eSewa", "status": "Success", "date": "24 Mar 2025" },
+    { "id": "PAY-8920", "order": "#ORD-4820", "customer": "Priya Thapa", "amount": "NPR 3,200", "method": "Khalti", "status": "Pending", "date": "24 Mar 2025" },
+    { "id": "PAY-8919", "order": "#ORD-4819", "customer": "Bibek Karki", "amount": "NPR 8,750", "method": "COD", "status": "Success", "date": "23 Mar 2025" },
+    { "id": "PAY-8918", "order": "#ORD-4818", "customer": "Sunita Gurung", "amount": "NPR 1,500", "method": "Bank", "status": "Failed", "date": "23 Mar 2025" }
+  ],
+  "coupons": [
+    { "id": 1, "code": "DASHAIN25", "type": "Percentage", "value": "25%", "minOrder": "NPR 500", "used": 142, "maxUses": 500, "validTo": "20 Oct 2025", "status": "Active" },
+    { "id": 2, "code": "NEWUSER100", "type": "Fixed", "value": "NPR 100", "minOrder": "NPR 300", "used": 88, "maxUses": null, "validTo": "31 Dec 2025", "status": "Active" },
+    { "id": 3, "code": "TIHAR50", "type": "Percentage", "value": "50%", "minOrder": "NPR 1000", "used": 500, "maxUses": 500, "validTo": "15 Nov 2025", "status": "Expired" },
+    { "id": 4, "code": "TECHTMART15", "type": "Percentage", "value": "15%", "minOrder": "NPR 2000", "used": 34, "maxUses": 200, "validTo": "30 Jun 2025", "status": "Active" }
+  ],
+  "reviews": [
+    { "id": 1, "product": "Samsung Galaxy A55 5G", "customer": "Aarav Sharma", "rating": 5, "comment": "Excellent phone, great value for money!", "status": "Approved", "date": "20 Mar 2025" },
+    { "id": 2, "product": "Wai Wai Chicken Noodles", "customer": "Priya Thapa", "rating": 4, "comment": "Classic taste, fast delivery.", "status": "Approved", "date": "19 Mar 2025" },
+    { "id": 3, "product": "Himalaya Purifying Neem", "customer": "Bibek Karki", "rating": 2, "comment": "Too harsh for sensitive skin.", "status": "Pending", "date": "18 Mar 2025" },
+    { "id": 4, "product": "Bajaj Pulsar NS160", "customer": "Sunita Gurung", "rating": 5, "comment": "Best bike in this price range!", "status": "Approved", "date": "17 Mar 2025" }
+  ],
+  "banners": [
+    { "id": 1, "title": "Dashain Super Sale", "position": "Hero", "link": "/sale", "sortOrder": 1, "validTo": "20 Oct 2025", "status": "Active" },
+    { "id": 2, "title": "New Electronics", "position": "Sidebar", "link": "/electronics", "sortOrder": 1, "validTo": "31 Dec 2025", "status": "Active" },
+    { "id": 3, "title": "Fashion Week", "position": "Category", "link": "/fashion", "sortOrder": 2, "validTo": "15 Apr 2025", "status": "Inactive" }
+  ],
+  "articles": [
+    { "id": 1, "title": "Top 10 Gadgets for 2025", "category": "Electronics", "status": "Published", "views": 1204, "date": "15 Mar 2025" },
+    { "id": 2, "title": "Authentic Nepali Food Guide", "category": "Food", "status": "Published", "views": 876, "date": "10 Mar 2025" },
+    { "id": 3, "title": "How to Shop Safely Online", "category": "Tips", "status": "Draft", "views": 0, "date": "24 Mar 2025" }
+  ],
+  "notificationTemplates": [
+    { "id": 1, "name": "Order Placed", "type": "Email", "event": "order.placed", "status": "Active" },
+    { "id": 2, "name": "Order Shipped", "type": "SMS", "event": "order.shipped", "status": "Active" },
+    { "id": 3, "name": "Order Delivered", "type": "Email", "event": "order.delivered", "status": "Active" },
+    { "id": 4, "name": "Payment Failed", "type": "Email", "event": "payment.failed", "status": "Active" }
+  ],
+  "seoSettings": {
+    "siteName": "LAHAR — Authentic Nepali Drops. Shipped Worldwide.",
+    "metaDescription": "Shop authentic Nepali products online. Electronics, fashion, food, and more — shipped worldwide from the heart of Nepal.",
+    "metaKeywords": "Nepal, online shopping, authentic, electronics, fashion, food",
+    "ogTitle": "LAHAR — Authentic Nepali Drops",
+    "ogDescription": "The best of Nepal, delivered to your door.",
+    "googleAnalyticsId": "G-XXXXXXXXXX",
+    "googleSearchConsole": "",
+    "sitemapUrl": "https://lahar.com/sitemap.xml",
+    "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: https://lahar.com/sitemap.xml"
+  },
+  "settings": {
+    "general": {
+      "storeName": "LAHAR",
+      "storeEmail": "support@lahar.com",
+      "storePhone": "+977-1-4XXXXXX",
+      "storeAddress": "Thamel, Kathmandu, Nepal",
+      "currency": "NPR",
+      "timezone": "Asia/Kathmandu",
+      "language": "en"
+    },
+    "shipping": {
+      "freeShippingThreshold": 1000,
+      "defaultShippingRate": 150,
+      "internationalShipping": true
+    },
+    "payment": {
+      "enabledMethods": ["eSewa", "Khalti", "COD", "Bank Transfer"],
+      "codLimit": 50000
+    }
+  },
+  "reports": {
+    "salesByMonth": [
+      { "month": "Oct", "revenue": 1820000, "orders": 1420 },
+      { "month": "Nov", "revenue": 2100000, "orders": 1680 },
+      { "month": "Dec", "revenue": 3200000, "orders": 2540 },
+      { "month": "Jan", "revenue": 1950000, "orders": 1530 },
+      { "month": "Feb", "revenue": 2180000, "orders": 1720 },
+      { "month": "Mar", "revenue": 2418500, "orders": 1847 }
+    ],
+    "topCategories": [
+      { "name": "Electronics", "revenue": "NPR 9,42,000", "percent": 39 },
+      { "name": "Food & Grocery", "revenue": "NPR 5,18,000", "percent": 21 },
+      { "name": "Fashion", "revenue": "NPR 4,12,000", "percent": 17 },
+      { "name": "Beauty", "revenue": "NPR 2,86,000", "percent": 12 },
+      { "name": "Others", "revenue": "NPR 2,60,500", "percent": 11 }
+    ]
+  }
+}
